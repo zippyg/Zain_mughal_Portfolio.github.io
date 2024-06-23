@@ -1,18 +1,38 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import styled from 'styled-components';
 
-const AboutContainer = styled.section`
-  padding: 20px;
+const AboutContainer = styled.div`
+  padding: 2rem;
+  background-color: #f5f5f5;
+`;
 
-  h2 {
-    color: #003E74;
-  }
+const Heading = styled(motion.h1)`
+  font-size: 3rem;
+  color: #333;
+`;
+
+const Text = styled(motion.p)`
+  font-size: 1.5rem;
+  color: #666;
 `;
 
 const About = () => (
   <AboutContainer>
-    <h2>About Me</h2>
-    <p>I am a second-year student at Imperial College London with a keen interest in data science, technology, and finance.</p>
+    <Heading
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
+      About Me
+    </Heading>
+    <Text
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
+    >
+      I am a passionate developer with experience in building modern web applications.
+    </Text>
   </AboutContainer>
 );
 

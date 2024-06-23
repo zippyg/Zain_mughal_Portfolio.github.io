@@ -1,27 +1,21 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import styled from 'styled-components';
+import { useParams } from 'react-router-dom';
 
-const ProjectContainer = styled.section`
-  padding: 20px;
+const ProjectContainer = styled.div`
+  padding: 2rem;
+  background-color: #f5f5f5;
+`;
 
-  h2 {
-    color: #003E74;
-  }
+const Heading = styled(motion.h1)`
+  font-size: 3rem;
+  color: #333;
+`;
 
-  figure {
-    margin: 20px 0;
-
-    img {
-      max-width: 100%;
-      border-radius: 5px;
-    }
-
-    figcaption {
-      text-align: center;
-      margin-top: 10px;
-    }
-  }
+const Text = styled(motion.p)`
+  font-size: 1.5rem;
+  color: #666;
 `;
 
 const Project = () => {
@@ -29,16 +23,20 @@ const Project = () => {
 
   return (
     <ProjectContainer>
-      <h2>Project Title {id}</h2>
-      <p>This is a detailed description of Project {id}. Explain what the project is about, the technologies used, and any challenges faced.</p>
-      <figure>
-        <img src={`/assets/images/project${id}.jpeg`} alt={`Project ${id}`} />
-        <figcaption><a href="#" target="_blank">View Project Files</a></figcaption>
-      </figure>
-      <h3>Technologies Used</h3>
-      <p>List the technologies used in the project.</p>
-      <h3>Challenges</h3>
-      <p>Describe any challenges faced during the project and how they were overcome.</p>
+      <Heading
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
+        Project {id}
+      </Heading>
+      <Text
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.5 }}
+      >
+        Detailed information about project {id}.
+      </Text>
     </ProjectContainer>
   );
 };

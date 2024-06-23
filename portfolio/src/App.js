@@ -14,7 +14,7 @@ import GlobalStyles from './assets/styles/GlobalStyles';
 
 function App() {
   return (
-    <Router basename="/Zain_mughal_Portfolio.github.io">
+    <Router basename="/Zain_Mughal_Portfolio.github.io">
       <GlobalStyles />
       <NavBar />
       <Routes>
