@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.js": "/Zain_Mughal_Portfolio.github.io/static/js/main.3b97eef0.js",
-    "static/js/453.1407b060.chunk.js": "/Zain_Mughal_Portfolio.github.io/static/js/453.1407b060.chunk.js",
+    "main.css": "/Zain_Mughal_Portfolio.github.io/static/css/main.e6c13ad2.css",
+    "main.js": "/Zain_Mughal_Portfolio.github.io/static/js/main.61147a74.js",
     "index.html": "/Zain_Mughal_Portfolio.github.io/index.html",
-    "main.3b97eef0.js.map": "/Zain_Mughal_Portfolio.github.io/static/js/main.3b97eef0.js.map",
-    "453.1407b060.chunk.js.map": "/Zain_Mughal_Portfolio.github.io/static/js/453.1407b060.chunk.js.map"
+    "main.e6c13ad2.css.map": "/Zain_Mughal_Portfolio.github.io/static/css/main.e6c13ad2.css.map",
+    "main.61147a74.js.map": "/Zain_Mughal_Portfolio.github.io/static/js/main.61147a74.js.map"
   },
   "entrypoints": [
-    "static/js/main.3b97eef0.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.61147a74.js"
   ]
 }
