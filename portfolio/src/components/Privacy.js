@@ -14,8 +14,7 @@ const Privacy = () => (
     <h2>Privacy Policy</h2>
     <p>Your privacy is important to us. This privacy policy explains how we collect, use, and protect your personal information.</p>
     <h3>Information We Collect</h3>
-    <p>We collect information that you provide directly to us, such as when you create an account, update your profile, use the interactive features of our services, participate in a survey, contest### `Privacy.js` (continued)
-```jsx
+    <p>We collect information that you provide directly to us, such as when you create an account, update your profile, use the interactive features of our services, participate in a survey, contest### `Privacy.js` (continued) </p>
     <h3>Information We Collect</h3>
     <p>We collect information that you provide directly to us, such as when you create an account, update your profile, use the interactive features of our services, participate in a survey, contest, promotion, sweepstakes, activity or event, make a purchase, request customer support, or otherwise communicate with us.</p>
     <h3>How We Use Information</h3>
